@@ -1,4 +1,4 @@
-# Encrypt3D: physical imagbe encryption
+# Encrypt3D: physical image encryption
 ![teaser](docs/teaser.gif)
 
 This program generates 3D printable key/data pairs that encrypt low res binary images.
