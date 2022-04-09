@@ -198,9 +198,9 @@ def grid_to_mesh(grid: np.ndarray, hole_ratio: float) -> mesh.Mesh:
 
     idx = hollow_box(
         xmin=0,
-        xmax=grid.shape[1] + 1,
+        xmax=grid.shape[1],
         ymin=0,
-        ymax=grid.shape[0] + 1,
+        ymax=grid.shape[0],
         idx=idx,
         model=model,
     )
