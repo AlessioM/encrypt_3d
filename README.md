@@ -3,7 +3,7 @@
 
 This program generates 3D printable key/data pairs that encrypt low res binary images.
 
-The encryption is basically a [https://en.wikipedia.org/wiki/One-time_pad](One-time pad), with all its benefits and disatvantages (like being vulnurable to known plaintext attacks).
+The encryption is basically a [One-time pad](https://en.wikipedia.org/wiki/One-time_pad), with all its benefits and disatvantages (like being vulnurable to known plaintext attacks).
 
 ## operation
 Each pixel is represented as a 2x2 grid of sub pixels, for each pixel exactly 2 sub pixels are "set".
